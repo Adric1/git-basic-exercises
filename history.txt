@@ -1,0 +1,620 @@
+    1  clear
+    2  sudo apt install fonts-powerline
+    3  sudo apt-get update
+    4  clear
+    5  nano ~/.zshrc
+    6  cd ~/.oh-my-zsh/themes
+    7  nano agnoster.zsh-theme
+    8  source ~/.zshrc
+    9  clear
+   10  chsh -s $(which zsh)
+   11  clear
+   12  ~/.oh-my-zsh/custom/plugins
+   13  source ~/.zshrc
+   14  man ls
+   15  git clone https://github.com/zsh-users/zsh-syntax-highlighting
+   16  git clone https://github.com/zsh-users/zsh-autosuggestions
+   17  ls
+   18  cd .
+   19  cd ..
+   20  clear
+   21  nano ~/.zshrc
+   22  source ~/.zshrc
+   23  git clone https://github.com/zsh-users/zsh-syntax-highlighting
+   24  nano ~/.zshrc
+   25  source ~/.zshrc
+   26  nano ~/.zshrc
+   27  source ~/.zshrc
+   28  sudo apt-get update
+   29  git clone https://github.com/zsh-users/zsh-syntax-highlighting
+   30  git clone https://github.com/zsh-users/zsh-autosuggestions
+   31  clear
+   32  nano ~/.zshrc
+   33  source ~/.zshrc
+   34  git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+   35  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+   36  source ~/.zshrc
+   37  sudo apt-get update
+   38  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 4773BD5E130D1D45
+   39  sudo apt-get update
+   40  clear
+   41  sudo apt update
+   42  clear
+   43  sudo apt-get install curl python-software-properties
+   44  curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+   45  sudo apt-get install -y nodjs
+   46  sudo apt-get install -y nodejs
+   47  cd Downloads
+   48  ls
+   49  sudo dpkg -i code_1.37.0-1565227985_amd64.deb
+   50  code .
+   51  node -v
+   52  npm -v
+   53  sudo apt update
+   54  apt list --upgradable
+   55  clear
+   56  sudo apt get install vim
+   57  sudo apt-get install vim
+   58  sudo apt-get install tree
+   59  clear
+   60  cd Downloads
+   61  sudo dpkg -i slack-desktop-4.0.1-amd64.deb
+   62  clear
+   63  cd ~
+   64  clear
+   65  touch .vimrc
+   66  cd .vimrc
+   67  cd ~/.vimrc
+   68  ls a
+   69  clear
+   70  vim .vimrc
+   71  clear
+   72  cd Work
+   73  git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/pack/typescript/start/typescript-vim
+   74  clear
+   75  git clone https://github.com/Umuzi-org/auto-mark.git
+   76  touch .gitignore
+   77  vim .gitignore
+   78  cd auto-mark/front-end
+   79  touch .gitignore
+   80  vim .gitignore
+   81  git branch auto-mark-ui
+   82  git checkout auto-mark-ui
+   83  ls
+   84  git add .
+   85  git commit -m "first commit submit page done"
+   86  git config --global user.email "aplanktin@gmail.com"
+   87  git config --global user.name "Adric1"
+   88  git commit -m "first commit submit page done"
+   89  git status
+   90  ls
+   91  git add .
+   92  git commit -m "first commit submit page done"
+   93  git push
+   94  git push --set-upstream origin auto-mark-ui
+   95  clear
+   96  cd ..
+   97  cd auto-mark/front-end
+   98  npm start
+   99  clear
+  100  code .
+  101  npm start
+  102  git checkout auto-mark-ui
+  103  git add .
+  104  git commit -m "font changed"
+  105  git push
+  106  cd Work
+  107  cd auto-mark/front-end
+  108  code .
+  109  tree
+  110  clear
+  111  sudo update-alternatives --config x-terminal-emulator
+  112  clear
+  113  sudo update-alternatives --config x-terminal-emulator
+  114  clear
+  115  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6
+  116  echo "deb [ arch=amd64,arm64 ] http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.4.list
+  117  sudo apt-get update
+  118  cat /etc/os-release
+  119  sudo apt-get install -y mongodb-org
+  120  echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
+  121  sudo apt-get update 
+  122  clear
+  123  cd Work/auto-mark
+  124  npm start
+  125  clear
+  126  cd front-end
+  127  npm start
+  128  clear
+  129  cd ~
+  130  clear
+  131  cd Desktop
+  132  mkdir test-page
+  133  cd test-page
+  134  touch test.html
+  135  vim test.html
+  136  touch test.css
+  137  vim test.css
+  138  vim test.html
+  139  cd Desktop
+  140  cd test-page
+  141  code .
+  142  clear
+  143  vim test.css
+  144  vim test.html
+  145  cd Work/auto-mark
+  146  cd front-end
+  147  code .
+  148  npm start
+  149  cd Work/auto-mark
+  150  cd front-end
+  151  vim index.js
+  152  cd src
+  153  vim index.js
+  154  vim App.js
+  155  cd Work/auto-mark
+  156  cd front-end
+  157  cd src
+  158  vim index.css
+  159  cat /etc/os-release
+  160  wget -qO - https://www.mongodb.org/static/pgp/server-3.2.asc | sudo apt-key add -
+  161  echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
+  162  sudo apt-get update
+  163  sudo apt-get install -y mongodb-org
+  164  sudo service mongod start
+  165  mongod
+  166  mongo
+  167  sudo systemctl enable mongod
+  168  clear
+  169  cd Desktop
+  170  cd test-page
+  171  code .
+  172  sudo fdisk -1
+  173  sudo fdisk -i
+  174  sudo fdisk -l
+  175  sudo badblocks -v /dev/sdb > /scna_result/badsectors.txt
+  176  sudo badblocks -v /dev/sdb > /scan_result/badsectors.txt
+  177  sudo apt-get install gparted
+  178  clear
+  179  sudo power off
+  180  sudo poweroff
+  181  lsdlk
+  182  clear
+  183  sudo apt-get install testdisk
+  184  sudo testdisk
+  185  sudo photorec
+  186  sudo testdisk
+  187  sudo photorec
+  188  clear
+  189  sudo photorec
+  190  sudo testdisk
+  191  cd Downloads
+  192  ls
+  193  sudo rm Themes
+  194  sudo rmdir Themes
+  195  sudo rm -r Themes
+  196  sudo rm -r FL
+  197  sudo rm -r TorrentDownloads
+  198  cd Desktop
+  199  mkdir Menus
+  200  cd Menus
+  201  mkdir menu1
+  202  mkdir menu2
+  203  mkdir menu3
+  204  cd menu1
+  205  code .
+  206  sudo rm -r ,Software
+  207  sudo rm -r Videos
+  208  sudo testdisk
+  209  cd Work
+  210  git clone https://github.com/Adric1/rvaye.githttps://github.com/Umuzi-org/auto-mark.git
+  211  git clone https://github.com/Adric1/rvaye.git
+  212  cd rvaye
+  213  code .
+  214  npm install
+  215  npm start
+  216  cd Work/rvaye
+  217  npm start
+  218  git add 
+  219  git add  .
+  220  git commit -m "landing page done with mock values"
+  221  git push
+  222  sudo testdisk
+  223  cd Work/rvaye
+  224  git pull
+  225  code
+  226  npm start
+  227  clear
+  228  ls
+  229  clear
+  230  code .
+  231  npm start
+  232  clear
+  233  npm install
+  234  npm start
+  235  git add  .
+  236  git commit -m "langing page fixed"
+  237  git push
+  238  cd Work/rvaye
+  239  git pull
+  240  code .
+  241  npm install
+  242  npm start
+  243  ipconfig
+  244  ifconfig
+  245  git add  .
+  246  git commit -m "default map is now joburg"
+  247  git push
+  248  git add  .
+  249  git commit -m "default map is now joburg south Africa"
+  250  git push
+  251  cd Work/rvaye
+  252  npm start
+  253  ifconfig
+  254  clear
+  255  ifconfig
+  256  cd Work/rvaye
+  257  code .
+  258  ls
+  259  cd src
+  260  ls
+  261  cd components
+  262  ls 
+  263  vim register.js
+  264  testdisk
+  265  sudo testdisk
+  266  clear
+  267  sudo testdisk
+  268  sudo gparted
+  269  testdisk
+  270  sudo testdisk
+  271  fdisk -l
+  272  sudo fdisk -l
+  273  sudo badblocks -v /dev/sdb > badsectors.txt
+  274  clear
+  275  sudo su
+  276  sudo testdisk
+  277  sudo apt install chromium-browser -y
+  278  clear
+  279  sudo apt install chromium-browser -y
+  280  clear
+  281  cat /etc/os-release~
+  282  cat /etc/os-release
+  283  shutdown
+  284  shutdown -c
+  285  poweroff 
+  286  sudo apt-get update
+  287  sudo apt-get upgrade
+  288  yes | sudo apt-get dist-upgrade
+  289  yes | apt --fix-broken install
+  290  yes | sudo apt-get dist-upgrade
+  291  apt --fix-broken install
+  292  sudo apt-get update
+  293  sudo apt-get upgrade -y
+  294  sudo apt-get update –fix-missing
+  295  sudo apt-get update --fix-missing
+  296  sudo dpkg --configure -a
+  297  sudo apt-get install -f
+  298  yes | sudo apt-get dist-upgrade
+  299  poweroff
+  300  apt - get install git
+  301  clear
+  302  sudo apt-get install git
+  303  clear
+  304  ls
+  305  cl
+  306  clear
+  307  ls /data
+  308  clear
+  309  ls /
+  310  clear
+  311  pwd
+  312  clear
+  313  mkdir Learning_unix
+  314  ls
+  315  clear
+  316  cd Learning_unix
+  317  ls
+  318  cle
+  319  clear
+  320  mkdir Outer_directory
+  321  cd Outer_directory
+  322  mkdir Inner_directory
+  323  cd Inner_directory
+  324  cd /
+  325  cd home
+  326  cd ubuntu
+  327  ls
+  328  cd /
+  329  ls
+  330  cd ..
+  331  ls
+  332  cd home
+  333  ls
+  334  cd adric
+  335  ls
+  336  clear
+  337  cd Learning_unix
+  338  cd ..
+  339  ls
+  340  cd Learning_unix
+  341  cd /tmp
+  342  l
+  343  pwd
+  344  cd ..
+  345  ls
+  346  cd home/adric
+  347  ls
+  348  clear
+  349  cd /
+  350  pwd
+  351  cd ~
+  352  pwd
+  353  cd
+  354  pwd
+  355  clear
+  356  ls ..
+  357  ls ../..
+  358  ls
+  359  clear
+  360  cd Learning_unix
+  361  ls -i /home
+  362  ls -l /home
+  363  cd ..
+  364  clear
+  365  man ls
+  366  cd Learning_unix/Outer_directory/
+  367  rmdir Inner_directory
+  368  cd ..
+  369  rmdir Outer_directory
+  370  ls
+  371  cd ..
+  372  cd Learning_unix
+  373  touch heaven.txt
+  374  ls
+  375  touch eartch.txt
+  376  ls
+  377  mkdir Temp
+  378  mv heaven.txt Temp
+  379  ls
+  380  cd Temp
+  381  ls
+  382  cd ../..
+  383  ls
+  384  clear
+  385  ls
+  386  cd Downloads
+  387  sudo tar -xvf firefox-*.tar.bz2
+  388  sudo mv /home/adric/Downloads/firefox /opt
+  389  clear
+  390  cd Downloads
+  391  cd firefox
+  392  ls
+  393  ./configure
+  394  cd ..
+  395  clear
+  396  rm ds
+  397  unlink ds
+  398  clear
+  399  rmdir ds
+  400  rm -r ds
+  401  sudo rm -r ds
+  402  cd Downloads
+  403  sudo rm -r ds
+  404  tar xvjf firefox-86.0b5.tar.bz2
+  405  ./configure
+  406  cd firefox
+  407  ./configure
+  408  cd ..
+  409  ./firefox
+  410  make
+  411  cd ..
+  412  autoconf
+  413  clear
+  414  ls
+  415  cd firefox
+  416  autoreconf -i
+  417  clear
+  418  cd ..
+  419  ./autogen.sh 
+  420  clear
+  421  sudo mv /home/adric/Downloads/firefox /opt
+  422  sudo cp /home/adric/Downloads/firefox /opt
+  423  sudo cp -rp /home/adric/Downloads/firefox /opt
+  424  clear
+  425  cd ..
+  426  cd /pot
+  427  cd /opt
+  428  ls
+  429  sudo rm -r firefox
+  430  ls
+  431  cd ..
+  432  cd ~
+  433  ls
+  434  cd Downloads
+  435  sudo tar -xvf firefox-*.tar.bz2
+  436  mv /home/adric/Downloads/firefox /opt
+  437  sudo mv /home/adric/Downloads/firefox /opt
+  438  sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
+  439  cd ..
+  440  cd /opt
+  441  ls
+  442  cd ~
+  443  ls
+  444  sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
+  445  cd /opt
+  446  ls
+  447  cd firefox
+  448  ls
+  449  clear
+  450  sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
+  451  clear
+  452  cd 
+  453  cd /opt
+  454  sudo rm -r firefox
+  455  ls
+  456  cd
+  457  clear
+  458  cd Downloads
+  459  tar xjf firefox-86.0b5.tar.bz2
+  460  cd /opt/
+  461  ls
+  462  sudo mv firefox /opt/
+  463  ls
+  464  cd ~/.local/share/applications/
+  465  ls
+  466  cat > firefox-developer-edition.desktop
+  467  cd firefox
+  468  ls *bin
+  469  cd
+  470  cd Downloads
+  471  cd ~/.local/share/applications/
+  472  ls
+  473  cat > firefox-developer-edition.desktop
+  474  nano firefox-developer-edition.desktop
+  475  cd icons/
+  476  ls
+  477  cat > firefox-developer-edition.desktop
+  478  nano firefox-developer-edition.desktop
+  479  ls
+  480  nano firefox-developer-edition.desktop
+  481  cat firefox-developer-edition.desktop
+  482  cd
+  483  nano .bashrc
+  484  cd Downloads
+  485  ls
+  486  sudo tar -xjf firefox-*.tar.bz2
+  487  sudo rm -r firefox
+  488  poweroff
+  489  ls
+  490  mkdir git-basic-exercises
+  491  cd git-basic-exercises Downloads
+  492  cd git-basic-exercises
+  493  ls -a
+  494  git init
+  495  ls -a
+  496  git status
+  497  touch README.md
+  498  ls -a
+  499  git status
+  500  git log
+  501  git add  .
+  502  git status
+  503  git log
+  504  git status
+  505  git rm README.md
+  506  git rm --cached README.md
+  507  git status
+  508  git add  .
+  509  git status
+  510  git commit -m "initial commit"
+  511  git log
+  512  nano README.md
+  513  cat README.md
+  514  git status
+  515  git commit -m "second commit"
+  516  git add  .
+  517  git commit -m "second commit"
+  518  git status
+  519  ls -a
+  520  nano README.md
+  521  git status
+  522  ls -a
+  523  ls
+  524  git rm --cached README.md\\n
+  525  ls
+  526  ls -a
+  527  nano README.md\\n
+  528  ls -a
+  529  git rm --cached 'README.md\'\n
+  530  git rm --cached README.md\\n
+  531  clear
+  532  ls -a
+  533  rm --cached 'README.md\'\n
+  534  sudo rm --cached 'README.md\'\n
+  535  sudo rm 'README.md\'\n
+  536  ls -a
+  537  sudo rm .README.md.swp\n
+  538  ls -a
+  539  clear
+  540  git status
+  541  nano README.md\n
+  542  ls -a
+  543  git status
+  544  git add  .
+  545  git commit -m "second commit"
+  546  nano README.md\n
+  547  ls
+  548  git status
+  549  git add  .
+  550  git commit -m "third commit"
+  551  git log
+  552  git checkout fbab9656da9df13176eeb1482aedff203fa41541auto-mark-ui
+  553  git checkout fbab9656da9df13176eeb1482aedff203fa41541
+  554  cat README.md
+  555  git checkout main
+  556  cat README.md
+  557  ls -a
+  558  git checkout main
+  559  git log
+  560  cd ..
+  561  ls
+  562  cd git-basic-exercises
+  563  git checkout
+  564  ls -a
+  565  git checkout main
+  566  git fetch
+  567  git checkout main
+  568  git status
+  569  cd ..
+  570  clear
+  571  mkdir git-basic-exercises
+  572  cd git-basic-exercises
+  573  git init
+  574  ls -a
+  575  git status
+  576  touch README.md
+  577  git status
+  578  git commit -m "initial commit"
+  579  git add  .
+  580  git status
+  581  git commit -m "initial commit"
+  582  git log
+  583  nano README.md\n
+  584  git status
+  585  cat README.md
+  586  git add  .
+  587  git commit -m "second commit"
+  588  git status
+  589  ls -a
+  590  nano README.md\n
+  591  git status
+  592  git add  .
+  593  git commit -m "third commit"
+  594  git log
+  595  git checkout 245f0c96cf041f98b6700168d8d01f9719fd569b
+  596  cat README.md
+  597  git checkout master
+  598  cat README.md
+  599  git log
+  600  git branch 
+  601  git -b milkshake-flavours
+  602  git branch milkshake-flavours
+  603  git branch 
+  604  git checkout milkshake-flavours
+  605  git branch 
+  606  git checkout master
+  607  git branch 
+  608  git checkout milkshake-flavours
+  609  git branch 
+  610  nano milkshakes.md
+  611  git status
+  612  git add  .
+  613  git commit -m "added initial Flavours"
+  614  git log
+  615  git checkout master
+  616  git status
+  617  git branch 
+  618  git branch history
+  619  git checkout history
+  620  git log
